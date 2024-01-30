@@ -1,0 +1,10 @@
+[gd_scene load_steps=4 format=3 uid="uid://jl843d2us65c"]
+
+[ext_resource type="Texture2D" uid="uid://rusv3xwtf1th" path="res://icon.svg" id="1_8cc5i"]
+[ext_resource type="Script" path="res://scripts/placeholder.gd" id="1_llrc6"]
+[ext_resource type="Resource" uid="uid://dr01yxe1a4nv" path="res://resources/base_stats.tres" id="3_bdhxb"]
+
+[node name="Placeholder" type="Sprite3D" groups=["enemy", "entity"]]
+texture = ExtResource("1_8cc5i")
+script = ExtResource("1_llrc6")
+stats = ExtResource("3_bdhxb")

@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Stats" load_steps=2 format=3 uid="uid://csrmqwywkmjan"]
+
+[ext_resource type="Script" path="res://resources/stats.gd" id="1_xu2os"]
+
+[resource]
+script = ExtResource("1_xu2os")
+speed = 5
+strength = 5
+name = "player"
